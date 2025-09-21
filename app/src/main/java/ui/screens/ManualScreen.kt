@@ -21,7 +21,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun ComicHistory(
+fun ManualScreen(
     modifier: Modifier = Modifier,
     onNavigateToHome: () -> Unit
 ) {
@@ -29,11 +29,11 @@ fun ComicHistory(
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color(0xFF17AFE4))
+            .background(Color(0xFFF6EFC4))
     ) {
 
         Image(
-            painter = painterResource(id = R.drawable.history),
+            painter = painterResource(id = R.drawable.manual),
             contentDescription = "Comic",
             contentScale = ContentScale.FillWidth,
             modifier = Modifier
@@ -80,8 +80,8 @@ fun ComicHistory(
 
 @Preview(showBackground = true)
 @Composable
-fun ComicHistoryPreview() {
+fun ManualScreenPreview() {
     SuperFruitsTheme {
-        ComicHistory { }
+        ManualScreen() { }
     }
 }

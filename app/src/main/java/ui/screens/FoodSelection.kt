@@ -44,6 +44,13 @@ fun FoodSelection(
             contentScale = ContentScale.Crop
         )
         Image(
+            painter = painterResource(id = R.drawable.food),
+            contentDescription = "Food",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
+
+        Image(
             painter = painterResource(id = R.drawable.home_button),
             contentDescription = "Home Button",
             modifier = Modifier
