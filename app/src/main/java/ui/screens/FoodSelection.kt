@@ -57,7 +57,7 @@ fun FoodSelection(
                 .size(110.dp)
                 .offset(x = 140.dp, y = 740.dp)
                 .clip(RoundedCornerShape(12.dp))
-                .clickable { onNavigateToHome },
+                .clickable { onNavigateToHome() },
             contentScale = ContentScale.Fit
         )
     }

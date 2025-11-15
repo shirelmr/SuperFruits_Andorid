@@ -74,7 +74,7 @@ fun HomeScreen(
             ) {
                 GameMenuCard(
                     title = "Historia de\nNutriPup",
-                    imageRes = R.drawable.nutripup_story,
+                    imageRes = R.drawable.comic_history,
                     onClick = onNavigateToStory,
                 )
 
@@ -99,7 +99,7 @@ fun HomeScreen(
 
                 GameMenuCard(
                     title = "Manual de\nsuperpoderes",
-                    imageRes = R.drawable.manual,
+                    imageRes = R.drawable.nutripup_story,
                     onClick = onNavigateToManual,
                 )
             }

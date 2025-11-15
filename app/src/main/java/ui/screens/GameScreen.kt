@@ -38,7 +38,8 @@ fun GameScreen(
     onNavigateToHelp: () -> Unit = {},
     onNavigateToBattle: () -> Unit = {},
     onNavigateToManual: () -> Unit = {},
-    onNavigateToHome: () -> Unit = {}
+    onNavigateToHome: () -> Unit = {},
+    onNavigateToGame: () -> Unit = {}
 
 ) {
     Box(
@@ -68,7 +69,7 @@ fun GameScreen(
                 .size(100.dp)
                 .offset(x = 70.dp, y = 670.dp)
                 .clip(RoundedCornerShape(12.dp))
-                .clickable { onNavigateToHome },
+                .clickable { onNavigateToHome() },
             contentScale = ContentScale.Fit
         )
 
@@ -79,7 +80,7 @@ fun GameScreen(
                 .size(100.dp)
                 .offset(x = 220.dp, y = 670.dp)
                 .clip(RoundedCornerShape(12.dp))
-                .clickable { onNavigateToHome },
+                .clickable { onNavigateToGame() },
             contentScale = ContentScale.Fit
         )
 

@@ -12,8 +12,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import com.example.superfruits.ui.screens.ComicHistory
+import com.example.superfruits.ui.screens.FlappyBirdGame
 import com.example.superfruits.ui.screens.FoodSelection
+import com.example.superfruits.ui.screens.GameScreen
 import com.example.superfruits.ui.screens.HomeScreen
+import com.example.superfruits.ui.screens.ManualScreen
 import com.example.superfruits.ui.screens.SplashScreen
 import com.example.superfruits.ui.theme.SuperFruitsTheme
 
@@ -33,9 +37,29 @@ class MainActivity : ComponentActivity() {
                         )
                         "home" -> HomeScreen(
                             modifier = Modifier.padding(innerPadding),
-                            onNavigateToHelp = { currentScreen = "help"}
+                            onNavigateToHelp = { currentScreen = "help"},
+                            onNavigateToStory = { currentScreen = "story"},
+                            onNavigateToBattle = { currentScreen = "battle"},
+                            onNavigateToManual = {currentScreen = "manual"}
                         )
                         "help" -> FoodSelection(
+                            modifier = Modifier.padding(innerPadding),
+                            onNavigateToHome = { currentScreen = "home"}
+                        )
+                        "story" -> ComicHistory(
+                            modifier = Modifier.padding(innerPadding),
+                            onNavigateToHome = { currentScreen = "home"}
+                        )
+                        "battle" -> GameScreen(
+                            modifier = Modifier.padding(innerPadding),
+                            onNavigateToHome = { currentScreen = "home"},
+                            onNavigateToGame = {currentScreen = "game"}
+                        )
+                        "manual" -> ManualScreen(
+                            modifier = Modifier.padding(innerPadding),
+                            onNavigateToHome = { currentScreen = "home"}
+                        )
+                        "game" -> FlappyBirdGame(
                             modifier = Modifier.padding(innerPadding),
                             onNavigateToHome = { currentScreen = "home"}
                         )
