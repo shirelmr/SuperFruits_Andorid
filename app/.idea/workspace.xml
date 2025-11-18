@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="993c2002-846d-4f6a-bb24-d45a3c54376e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/drawable/history_page7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/superfruits/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/superfruits/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/screens/ComicHistory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/screens/ComicHistory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/screens/FoodSelection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/screens/FoodSelection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/screens/GameScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/screens/GameScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ui/screens/ManualScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/screens/ManualScreen.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shirelmr"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shirelmr/SuperFruits_Andorid.git",
+    "accountId": "3739aade-1a5b-46e8-8bc9-352e18c2d501"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="35LD0n4mCfs5D3kKeNYuyAdITZm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/shirelmr/AndroidStudioProjects/SuperFruits/app"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="993c2002-846d-4f6a-bb24-d45a3c54376e" name="Changes" comment="" />
+      <created>1762880237747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762880237747</updated>
+    </task>
+    <servers />
+  </component>
+</project>
