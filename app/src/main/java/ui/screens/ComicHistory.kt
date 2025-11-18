@@ -30,7 +30,6 @@ fun ComicHistory(
     modifier: Modifier = Modifier,
     onNavigateToHome: () -> Unit
 ) {
-    // Asociar cada página con su texto
     val comicPagesWithText = listOf(
         R.drawable.history_page1 to "En la ciudad Fruit vive un perrito muy especial ....      Soy nutripup, he descubierto que la comida sana me da superpoderes! ¡Me siento mas fuerte que nunca!  Las zanahoria me da visión nocturna",
         R.drawable.history_page2 to "La misión de Nutripup!  Recorro ciudad fruti ayudando!  Atrapando ladrones y rescatando a los ciudadanos, elijo mis alimentos con cuidado todos los dias. ¡Y hago ejercicio!",
@@ -119,12 +118,11 @@ fun ComicHistory(
                 }
         )
 
-        // Botón de audio para leer el texto del comic
         Box(
             modifier = Modifier
-                .align(Alignment.BottomCenter)  // Empieza desde arriba-izquierda
+                .align(Alignment.BottomCenter)
                 .offset(
-                    x = 0.dp,  // O usa porcentaje con BoxWithConstraints
+                    x = 0.dp,
                     y = -150.dp
                 )
                 .padding(5.dp)
@@ -142,7 +140,6 @@ fun ComicHistory(
         }
     }
 
-    // Botón Home
     Image(
         painter = painterResource(id = R.drawable.home_button),
         contentDescription = "Home Button",
@@ -154,7 +151,6 @@ fun ComicHistory(
         contentScale = ContentScale.Fit
     )
 
-    // Flecha izquierda
     Image(
         painter = painterResource(id = R.drawable.left_arrow),
         contentDescription = "Previous Page",
@@ -167,7 +163,6 @@ fun ComicHistory(
         alpha = if (currentPage > 0) 1f else 0.3f
     )
 
-    // Flecha derecha
     Image(
         painter = painterResource(id = R.drawable.right_arrow),
         contentDescription = "Next Page",

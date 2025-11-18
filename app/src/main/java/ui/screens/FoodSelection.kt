@@ -206,7 +206,6 @@ fun FoodSelection(
         }
     }
 
-    // Función para verificar si la comida está cerca del perrito
     fun checkIfNearPuppy(foodPosition: Offset): Boolean {
         return foodPosition.x >= puppyPosition.x &&
                 foodPosition.x <= puppyPosition.x + puppySize.width &&
@@ -245,7 +244,6 @@ fun FoodSelection(
                     )
                 }
         ) {
-            // Cambiar imagen del perrito según el estado de la boca
             Image(
                 painter = painterResource(
                     id = if (isPuppyMouthOpen) R.drawable.nutripup1 else R.drawable.nutripup
@@ -517,7 +515,7 @@ fun SuperPowerBar(
     color: Color
 ) {
     Column(
-        modifier = Modifier.fillMaxWidth()  // ⬅️ Cambié de width(120.dp) a fillMaxWidth()
+        modifier = Modifier.fillMaxWidth()
     ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,

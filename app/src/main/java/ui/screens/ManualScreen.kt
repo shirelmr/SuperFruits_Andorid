@@ -118,7 +118,6 @@ fun ManualScreen(
             .fillMaxSize()
             .background(Color(0xFFF6EFC4))
     ) {
-        // Imagen de la página (SIN click)
         Image(
             painter = painterResource(id = manualPages[currentPage]),
             contentDescription = "Manual page ${currentPage + 1}",
@@ -127,7 +126,6 @@ fun ManualScreen(
             alpha = alpha
         )
 
-        // Botón de audio - SOLO ESTE ES CLICKEABLE
         Box(
             modifier = Modifier
                 .align(Alignment.TopCenter)
